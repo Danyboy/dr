@@ -6,16 +6,17 @@ function getDrProbability(){
 
 var friendsQuantity = 400;
 var birtdaysInOneDay = 5;
-var iter = 1000000;
+var iter = 100;
 var daysInYear = 365;
 var probability = 0;
+
+var start = Date.now();
 
 for (i = 0; i < iter; i++){
     var drs = 0;
     var days = Array.apply(null, Array(daysInYear)).map(Number.prototype.valueOf,0);
     for (j = 1; j < friendsQuantity; j++){
 	var day = getRandomInt(1, daysInYear);
-	//console.log(day);
 	days[day] = days[day] + 1;
 	if (days[day] >= birtdaysInOneDay){
 	    drs++; 
@@ -25,9 +26,12 @@ for (i = 0; i < iter; i++){
     probability += drs > 0 ? 1 : 0; //если был хоть один день с > 4 значит случилось, добавляем 1
 }
 
-console.log("final result");
-console.log(probability);
-console.log(probability / iter);
+var end = Date.now();
+var p = probability / iter;
+var time = end - start;
+var result = "Final result: " + p + " time: " + time;
+console.log(result);
+alert(result);
 }
 
 getDrProbability();
