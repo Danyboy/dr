@@ -16,13 +16,15 @@ https://en.wikipedia.org/wiki/Birthday_problem
 ### Table of result and language speed on 1 000 000 iteraion
 | Language      | Result        | Time           |
 | ------------- |:-------------:| :-------------:|
-| cpp           | 0.867784 | 0:08.86   |
-| java           | 0.869173 | 0:17.87   |
-| js           | 0.862871 | 1:10.54   |
-| php           | 0.863919 | 2:30.30   |
+| Language      | Result        | Time           |
+| ------------- |:-------------:| :-------------:|
+| cpp | 0.867784 | 0:08.22 |
+| go | 0.866618 | 0:16.05 |
+| java | 0.868913 | 0:17.66 |
+| js | 0.86252 | 1:11.15 |
+| php | 0.863211 | 2:29.81 |
 | Haskell	| -		| Soon	    |
 | Asm		| -		| Soon	    |
-| Go		| -		| Soon	    |
 
 ### Run
 ```

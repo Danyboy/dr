@@ -51,5 +51,5 @@ func main() {
 		successCount += ty.test()
 	}
 	probability := float64(successCount) / float64(interations)
-	fmt.Printf("probability [%f]\n", probability)
+	fmt.Printf("%f\n", probability)
 }

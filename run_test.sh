@@ -15,6 +15,7 @@ my_run(){
     echo "| ------------- |:-------------:| :-------------:|"
 
     run_language cpp "g++ main.cpp" "./a.out $ITERATION" 
+    run_language go " " "go run birthday.go $ITERATION"
     run_language java "javac BirthdayProblem.java" "java BirthdayProblem 400 5 $ITERATION"
     run_language js " " "node dr.js"
     run_language php " " "php dr.php"
