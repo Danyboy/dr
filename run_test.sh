@@ -17,6 +17,7 @@ my_run(){
     run_language cpp "g++ main.cpp" "./a.out $ITERATION" 
     run_language java "javac BirthdayProblem.java" "java BirthdayProblem 400 5 $ITERATION"
     run_language js " " "node dr.js"
+    run_language php " " "php dr.php"
 }
 
 my_run >> $0-$(date +%d%m%y-%H:%M:%S).log 2>&1
