@@ -6,7 +6,7 @@ function getDrProbability(){
 
 var friendsQuantity = 400;
 var birtdaysInOneDay = 5;
-var iter = 100;
+var iter = 1000000;
 var daysInYear = 365;
 var probability = 0;
 
@@ -30,8 +30,8 @@ var end = Date.now();
 var p = probability / iter;
 var time = end - start;
 var result = "Final result: " + p + " time: " + time;
-console.log(result);
-alert(result);
+console.log(p);
+//alert(result);
 }
 
 getDrProbability();
