@@ -22,7 +22,7 @@ for ($i = 0; $i < $iter; $i++){
 }
 
 $p = $probability / $iter;
-echo($p);
+echo($p . " ");
 }
 
 getDrProbability();
