@@ -1,4 +1,4 @@
-## Resolve birthday problem by monte carlo algorithm on cpp js java.
+## Resolve birthday problem by monte carlo algorithm on different languages.
 
 ### Подробное описание
 
@@ -6,9 +6,11 @@ https://ru.wikipedia.org/wiki/Парадокс_дней_рождения
 https://en.wikipedia.org/wiki/Birthday_problem
 
 В данном коде решается немного иная задача:
+
 Какова вероятность что у 5 из 400 людей будет день рождение в один день.
 
-Ответ на всех языках примерно такой: 0,86. 
+Ответ на всех языках примерно такой: 0,86.
+
 То есть имея 400 друзей в вк очень вероятно что пятеро из них родились в один день.
 
 ### Table of result and language speed on 1 000 000 iteraion
