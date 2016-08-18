@@ -16,8 +16,6 @@ https://en.wikipedia.org/wiki/Birthday_problem
 ### Table of result and language speed on 1 000 000 iteraion
 | Language      | Result        | Time           |
 | ------------- |:-------------:| :-------------:|
-| Language      | Result        | Time           |
-| ------------- |:-------------:| :-------------:|
 | cpp | 0.867784 | 0:08.22 |
 | go | 0.866618 | 0:16.05 |
 | java | 0.868913 | 0:17.66 |
