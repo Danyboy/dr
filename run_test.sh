@@ -7,7 +7,7 @@ run_language(){
     cd $1
     $2
     time=$((time -f %E $3) 2>&1)
-    echo "| $1           | $(echo $time | tr -d "\n" | sed "s\ \ | \g")   |"
+    echo "| $1           | $(echo $time | tr "\n" " " | sed "s\ \ | \g")   |"
     cd ..
 }
 

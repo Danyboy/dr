@@ -17,7 +17,7 @@ https://en.wikipedia.org/wiki/Birthday_problem
 | cpp           | 0.867784 | 0:08.86   |
 | java           | 0.869173 | 0:17.87   |
 | js           | 0.862871 | 1:10.54   |
-| php           | 0.8639192:30.30   |
+| php           | 0.863919 | 2:30.30   |
 | Haskell	| -		| Soon	    |
 | Asm		| -		| Soon	    |
 | Go		| -		| Soon	    |
